@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+  <!-- CSRF Token -->
+  <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+  <title>{{ config('app.name', 'Laravel') }}</title>
 
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="aura home decor" />
@@ -23,8 +24,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
     crossorigin="anonymous" referrerpolicy="no-referrer">
-    @stack('styles')
+  @stack('styles')
 </head>
+
 <body class="gradient-bg">
   <svg class="d-none">
     <symbol id="icon_nav" viewBox="0 0 25 18">
@@ -461,14 +463,33 @@
             </div>
           </div>
 
+          @guest
           <div class="header-tools__item hover-container">
+            <a class="header-tools__item" href="{{route('login')}}">
+              <svg class="d-block" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use href="#icon_user" />
+              </svg>
+            </a>
+          </div>
+          @else
+          <div class="header-tools__item hover-container">
+            <a class="header-tools__item" href="{{ Auth::user()->utype=='ADM' ? route('admin.dashboard') : route('user.dashboard')}}">
+              <span class="pr-6px">{{Auth::user()->name}}</span>
+              <svg class="d-block" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use href="#icon_user" />
+              </svg>
+            </a>
+          </div>
+          @endguest
+
+          <!-- <div class="header-tools__item hover-container">
             <a href="login.html" class="header-tools__item">
               <svg class="d-block" width="20" height="20" viewBox="0 0 20 20" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <use href="#icon_user" />
               </svg>
             </a>
-          </div>
+          </div> -->
 
           <a href="wishlist.html" class="header-tools__item">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -656,4 +677,5 @@
   <script src="{{ asset ('assets/js/theme.js') }}"></script>
   @stack('scripts')
 </body>
+
 </html>
