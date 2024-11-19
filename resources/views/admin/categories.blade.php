@@ -40,7 +40,7 @@
                         </div>
                     </form>
                 </div>
-                <a class="tf-button style-1 w208" href="#"><i class="icon-plus"></i>Add new</a>
+                <a class="tf-button style-1 w208" href="{{route('admin.category.add')}}"><i class="icon-plus"></i>Add new</a>
             </div>
             <div class="wg-table table-all-user">
                 @if(Session::has('status'))
@@ -69,7 +69,6 @@
                                 </div>  
                             </td>
                             <td>{{$category->slug}}</td>      
-                            <td><a href="#" target="_blank">{{$category->products()->count()}}</a></td>                               
                             <td>
                                 <div class="list-icon-function">                                    
                                     <div class="item edit">
