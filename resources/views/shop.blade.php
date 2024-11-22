@@ -29,34 +29,34 @@
                         <div class="accordion-body px-0 pb-0 pt-3">
                             <ul class="list list-inline mb-0">
                                 <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Dresses</a>
+                                    <a href="#" class="menu-link py-1">Throw Pillows</a>
                                 </li>
                                 <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Shorts</a>
+                                    <a href="#" class="menu-link py-1">Table lamps</a>
                                 </li>
                                 <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Sweatshirts</a>
+                                    <a href="#" class="menu-link py-1">Area rugs</a>
                                 </li>
                                 <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Swimwear</a>
+                                    <a href="#" class="menu-link py-1">Wall art</a>
                                 </li>
                                 <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Jackets</a>
+                                    <a href="#" class="menu-link py-1">Mirrors</a>
                                 </li>
                                 <li class="list-item">
-                                    <a href="#" class="menu-link py-1">T-Shirts & Tops</a>
+                                    <a href="#" class="menu-link py-1">Throw blankets</a>
                                 </li>
                                 <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Jeans</a>
+                                    <a href="#" class="menu-link py-1">Candles</a>
                                 </li>
                                 <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Trousers</a>
+                                    <a href="#" class="menu-link py-1">Holders</a>
                                 </li>
                                 <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Men</a>
+                                    <a href="#" class="menu-link py-1">Bowls</a>
                                 </li>
                                 <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Jumpers & Cardigans</a>
+                                    <a href="#" class="menu-link py-1">Vases</a>
                                 </li>
                             </ul>
                         </div>
@@ -149,13 +149,13 @@
                         aria-labelledby="accordion-heading-brand" data-bs-parent="#brand-filters">
                         <div class="search-field multi-select accordion-body px-0 pb-0">
                             <select class="d-none" multiple name="total-numbers-list">
-                                <option value="1">Adidas</option>
-                                <option value="2">Balmain</option>
-                                <option value="3">Balenciaga</option>
-                                <option value="4">Burberry</option>
-                                <option value="5">Kenzo</option>
-                                <option value="5">Givenchy</option>
-                                <option value="5">Zara</option>
+                                <option value="1">IKEA</option>
+                                <option value="2">West Elm</option>
+                                <option value="3">Pottery Barn</option>
+                                <option value="4">CB2</option>
+                                <option value="5">Wayfair</option>
+                                <option value="5">Zara home</option>
+                                <option value="5">H&M Home</option>
                             </select>
                             <div class="search-field__input-wrapper mb-3">
                                 <input type="text" name="search_text"
@@ -164,31 +164,31 @@
                             </div>
                             <ul class="multi-select__list list-unstyled">
                                 <li class="search-suggestion__item multi-select__item text-primary js-search-select js-multi-select">
-                                    <span class="me-auto">Adidas</span>
+                                    <span class="me-auto">IKEA</span>
                                     <span class="text-secondary">2</span>
                                 </li>
                                 <li class="search-suggestion__item multi-select__item text-primary js-search-select js-multi-select">
-                                    <span class="me-auto">Balmain</span>
+                                    <span class="me-auto">West Elm</span>
                                     <span class="text-secondary">7</span>
                                 </li>
                                 <li class="search-suggestion__item multi-select__item text-primary js-search-select js-multi-select">
-                                    <span class="me-auto">Balenciaga</span>
+                                    <span class="me-auto">Pottery Barn</span>
                                     <span class="text-secondary">10</span>
                                 </li>
                                 <li class="search-suggestion__item multi-select__item text-primary js-search-select js-multi-select">
-                                    <span class="me-auto">Burberry</span>
+                                    <span class="me-auto">CB2</span>
                                     <span class="text-secondary">39</span>
                                 </li>
                                 <li class="search-suggestion__item multi-select__item text-primary js-search-select js-multi-select">
-                                    <span class="me-auto">Kenzo</span>
+                                    <span class="me-auto">Wayfair</span>
                                     <span class="text-secondary">95</span>
                                 </li>
                                 <li class="search-suggestion__item multi-select__item text-primary js-search-select js-multi-select">
-                                    <span class="me-auto">Givenchy</span>
+                                    <span class="me-auto">Zara home</span>
                                     <span class="text-secondary">1092</span>
                                 </li>
                                 <li class="search-suggestion__item multi-select__item text-primary js-search-select js-multi-select">
-                                    <span class="me-auto">Zara</span>
+                                    <span class="me-auto">H&M Home</span>
                                     <span class="text-secondary">48</span>
                                 </li>
                             </ul>
@@ -253,15 +253,14 @@
                                 <div class="slideshow-text container p-3 p-xl-5">
                                     <h2
                                         class="text-uppercase section-title fw-normal mb-3 animate animate_fade animate_btt animate_delay-2">
-                                        Women's <br /><strong>ACCESSORIES</strong></h2>
-                                    <p class="mb-0 animate animate_fade animate_btt animate_delay-5">Accessories are the best way to
-                                        update your look. Add a title edge with new styles and new colors, or go for timeless pieces.</h6>
+                                        Decor <br /><strong>ACCESSORIES</strong></h2>
+                                    <p class="mb-0 animate animate_fade animate_btt animate_delay-5">Focus on clean lines, neutral colors, and functional furniture. Add warmth with natural textures like wood or linen.</h6>
                                 </div>
                             </div>
                             <div class="slide-split_media position-relative">
                                 <div class="slideshow-bg" style="background-color: #f5e6e0;">
                                     <img loading="lazy" src="assets/images/shop/shop_banner3.jpg" width="630" height="450"
-                                        alt="Women's accessories" class="slideshow-bg__img object-fit-cover" />
+                                        alt="home decor products" class="slideshow-bg__img object-fit-cover" />
                                 </div>
                             </div>
                         </div>
@@ -274,15 +273,14 @@
                                 <div class="slideshow-text container p-3 p-xl-5">
                                     <h2
                                         class="text-uppercase section-title fw-normal mb-3 animate animate_fade animate_btt animate_delay-2">
-                                        Women's <br /><strong>ACCESSORIES</strong></h2>
-                                    <p class="mb-0 animate animate_fade animate_btt animate_delay-5">Accessories are the best way to
-                                        update your look. Add a title edge with new styles and new colors, or go for timeless pieces.</h6>
+                                        Decor <br /><strong>ACCESSORIES</strong></h2>
+                                    <p class="mb-0 animate animate_fade animate_btt animate_delay-5">Focus on clean lines, neutral colors, and functional furniture. Add warmth with natural textures like wood or linen.</h6>
                                 </div>
                             </div>
                             <div class="slide-split_media position-relative">
                                 <div class="slideshow-bg" style="background-color: #f5e6e0;">
                                     <img loading="lazy" src="assets/images/shop/shop_banner3.jpg" width="630" height="450"
-                                        alt="Women's accessories" class="slideshow-bg__img object-fit-cover" />
+                                        alt="home decor product" class="slideshow-bg__img object-fit-cover" />
                                 </div>
                             </div>
                         </div>
@@ -295,15 +293,14 @@
                                 <div class="slideshow-text container p-3 p-xl-5">
                                     <h2
                                         class="text-uppercase section-title fw-normal mb-3 animate animate_fade animate_btt animate_delay-2">
-                                        Women's <br /><strong>ACCESSORIES</strong></h2>
-                                    <p class="mb-0 animate animate_fade animate_btt animate_delay-5">Accessories are the best way to
-                                        update your look. Add a title edge with new styles and new colors, or go for timeless pieces.</h6>
+                                        Decor <br /><strong>ACCESSORIES</strong></h2>
+                                    <p class="mb-0 animate animate_fade animate_btt animate_delay-5">Focus on clean lines, neutral colors, and functional furniture. Add warmth with natural textures like wood or linen.</h6>
                                 </div>
                             </div>
                             <div class="slide-split_media position-relative">
                                 <div class="slideshow-bg" style="background-color: #f5e6e0;">
                                     <img loading="lazy" src="assets/images/shop/shop_banner3.jpg" width="630" height="450"
-                                        alt="Women's accessories" class="slideshow-bg__img object-fit-cover" />
+                                        alt="Products" class="slideshow-bg__img object-fit-cover" />
                                 </div>
                             </div>
                         </div>
