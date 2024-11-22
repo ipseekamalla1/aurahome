@@ -79,11 +79,7 @@
                                         <div class="text">Brand</div>
                                     </a>
                                     <ul class="sub-menu">
-                                        <li class="sub-menu-item">
-                                            <a href="#" class="">
-                                                <div class="text">New Brand</div>
-                                            </a>
-                                        </li>
+                                        
                                         <li class="sub-menu-item">
                                             <a href="{{route('admin.brands')}}" class="">
                                                 <div class="text">Brands</div>
@@ -97,11 +93,7 @@
                                         <div class="text">Category</div>
                                     </a>
                                     <ul class="sub-menu">
-                                        <li class="sub-menu-item">
-                                            <a href="#" class="">
-                                                <div class="text">New Category</div>
-                                            </a>
-                                        </li>
+                                        
                                         <li class="sub-menu-item">
                                             <a href="{{route('admin.categories')}}" class="">
                                                 <div class="text">Categories</div>
@@ -121,25 +113,15 @@
                                                 <div class="text">Orders</div>
                                             </a>
                                         </li>
-                                        <li class="sub-menu-item">
+                                        <!-- <li class="sub-menu-item">
                                             <a href="order-tracking.html" class="">
                                                 <div class="text">Order tracking</div>
                                             </a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </li>
-                                <li class="menu-item">
-                                    <a href="slider.html" class="">
-                                        <div class="icon"><i class="icon-image"></i></div>
-                                        <div class="text">Slider</div>
-                                    </a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="#" class="">
-                                        <div class="icon"><i class="icon-grid"></i></div>
-                                        <div class="text">Coupons</div>
-                                    </a>
-                                </li>
+                                
+                                
 
                                 <li class="menu-item">
                                     <a href="users.html" class="">

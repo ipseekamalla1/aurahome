@@ -257,9 +257,7 @@
       padding-bottom: 8px;
     }
 
-    .logo__image {
-      max-width: 220px;
-    }
+    
   </style>
   <div class="header-mobile header_sticky">
     <div class="container d-flex align-items-center h-100">

@@ -96,11 +96,12 @@
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth; } }
-
 body {
   margin: 0;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: #ebd9d5;
+}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -12242,7 +12243,7 @@ textarea.form-control-lg {
     .header {
       display: block; } }
   .header.header-transparent-bg:not(.header_sticky-active) {
-    background: transparent; }
+    background: #ebd9d5; }
   .header.header_dark {
     background-color: #222222; }
     .header.header_dark .navigation__link {
@@ -12270,7 +12271,7 @@ textarea.form-control-lg {
 
 .logo__image {
   max-width: 100%;
-  max-height: 120px; }
+  max-height: 80px; }
 
 .header-tools {
   margin-right: -0.5rem; }
@@ -12546,7 +12547,7 @@ textarea.form-control-lg {
 .header-mobile {
   height: 3.75rem;
   min-height: 3.75rem;
-  background-color: #ffffff;
+  background-color: #ebd9d5;
   z-index: 1030; }
   .header-mobile .logo {
     margin: 0 auto; }

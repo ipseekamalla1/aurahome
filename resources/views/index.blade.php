@@ -14,20 +14,20 @@
         <div class="swiper-slide">
           <div class="overflow-hidden position-relative h-100">
             <div class="slideshow-character position-absolute bottom-0 pos_right-center">
-              <img loading="lazy" src="{{ asset('assets/images/home/demo3/slideshow-character1.png' ) }}" width="542" height="733"
-                alt="Woman Fashion 1"
+              <img loading="lazy" src="{{ asset('assets/images/home/demo3/slideshow-character1.jpg' ) }}" width="542" height="733"
+                alt="Home Fashion 1"
                 class="slideshow-character__img animate animate_fade animate_btt animate_delay-9 w-auto h-auto" />
               <div class="character_markup type2">
                 <p
                   class="text-uppercase font-sofia mark-grey-color animate animate_fade animate_btt animate_delay-10 mb-0">
-                  Dresses</p>
+                  Decors</p>
               </div>
             </div>
             <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
               <h6 class="text_dash text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3">
                 New Arrivals</h6>
-              <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Night Spring</h2>
-              <h2 class="h1 fw-bold animate animate_fade animate_btt animate_delay-5">Dresses</h2>
+              <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Winter Souls</h2>
+              <h2 class="h1 fw-bold animate animate_fade animate_btt animate_delay-5">Shop Products</h2>
               <a href="#"
                 class="btn-link btn-link_lg default-underline fw-medium animate animate_fade animate_btt animate_delay-7">Shop
                 Now</a>
@@ -38,19 +38,19 @@
         <div class="swiper-slide">
           <div class="overflow-hidden position-relative h-100">
             <div class="slideshow-character position-absolute bottom-0 pos_right-center">
-              <img loading="lazy" src="{{ asset('assets/images/slideshow-character1.png' ) }}" width="400" height="733"
+              <img loading="lazy" src="{{ asset('assets/images/slideshow-character1.jpg' ) }}" width="400" height="733"
                 alt="Woman Fashion 1"
                 class="slideshow-character__img animate animate_fade animate_btt animate_delay-9 w-auto h-auto" />
               <div class="character_markup">
-                <p class="text-uppercase font-sofia fw-bold animate animate_fade animate_rtl animate_delay-10">Summer
+                <p class="text-uppercase font-sofia fw-bold animate animate_fade animate_rtl animate_delay-10">Warm Decor
                 </p>
               </div>
             </div>
             <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
               <h6 class="text_dash text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3">
                 New Arrivals</h6>
-              <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Night Spring</h2>
-              <h2 class="h1 fw-bold animate animate_fade animate_btt animate_delay-5">Dresses</h2>
+              <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Night Aura</h2>
+              <h2 class="h1 fw-bold animate animate_fade animate_btt animate_delay-5">Decors</h2>
               <a href="#"
                 class="btn-link btn-link_lg default-underline fw-medium animate animate_fade animate_btt animate_delay-7">Shop
                 Now</a>
@@ -61,15 +61,15 @@
         <div class="swiper-slide">
           <div class="overflow-hidden position-relative h-100">
             <div class="slideshow-character position-absolute bottom-0 pos_right-center">
-              <img loading="lazy" src="{{ asset('assets/images/slideshow-character2.png' ) }}" width="400" height="690"
+              <img loading="lazy" src="{{ asset('assets/images/slideshow-character2.jpg' ) }}" width="400" height="690"
                 alt="Woman Fashion 2"
                 class="slideshow-character__img animate animate_fade animate_rtl animate_delay-10 w-auto h-auto" />
             </div>
             <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
               <h6 class="text_dash text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3">
                 New Arrivals</h6>
-              <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Night Spring</h2>
-              <h2 class="h1 fw-bold animate animate_fade animate_btt animate_delay-5">Dresses</h2>
+              <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Honey Warm</h2>
+              <h2 class="h1 fw-bold animate animate_fade animate_btt animate_delay-5">Decors</h2>
               <a href="#"
                 class="btn-link btn-link_lg default-underline fw-medium animate animate_fade animate_btt animate_delay-7">Shop
                 Now</a>
@@ -87,7 +87,7 @@
     <div class="container mw-1620 bg-white border-radius-10">
       <div class="mb-3 mb-xl-5 pt-1 pb-4"></div>
       <section class="category-carousel container">
-        <h2 class="section-title text-center mb-3 pb-xl-2 mb-xl-4">You Might Like</h2>
+        <h2 class="section-title text-center mb-3 pb-xl-2 mb-xl-4">Shop Deals</h2>
 
         <div class="position-relative">
           <div class="swiper-container js-swiper-slider" data-settings='{
@@ -277,14 +277,14 @@
                     <div class="pc__img-wrapper">
                       <a href="details.html">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-0-1.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
+                          alt="Wooden Sofa Set" class="pc__img">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-0-2.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                          alt="Wooden Sofa Collection" class="pc__img pc__img-second">
                       </a>
                     </div>
 
                     <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Cropped Faux Leather Jacket</a></h6>
+                      <h6 class="pc__title"><a href="details.html">Wooden Sofa Set</a></h6>
                       <div class="product-card__price d-flex">
                         <span class="money price text-secondary">$29</span>
                       </div>
@@ -314,14 +314,14 @@
                     <div class="pc__img-wrapper">
                       <a href="details.html">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-1-1.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
+                          alt="Wooden Home Decors" class="pc__img">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-1-2.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                          alt="Wooden Sofa Collection" class="pc__img pc__img-second">
                       </a>
                     </div>
 
                     <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Calvin Shorts</a></h6>
+                      <h6 class="pc__title"><a href="details.html">Short Candle Sofa</a></h6>
                       <div class="product-card__price d-flex">
                         <span class="money price text-secondary">$62</span>
                       </div>
@@ -351,14 +351,14 @@
                     <div class="pc__img-wrapper">
                       <a href="details.html">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-2-1.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
+                          alt="Wooden Sofa Collection" class="pc__img">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-2-2.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                          alt="Wooden Home Set" class="pc__img pc__img-second">
                       </a>
                     </div>
 
                     <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Kirby T-Shirt</a></h6>
+                      <h6 class="pc__title"><a href="details.html">White Aura Sofa Set</a></h6>
                       <div class="product-card__price d-flex">
                         <span class="money price text-secondary">$62</span>
                       </div>
@@ -388,14 +388,14 @@
                     <div class="pc__img-wrapper">
                       <a href="details.html">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-3-1.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
+                          alt="Wooden Sofa Collection" class="pc__img">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-3-2.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                          alt="Wooden Sofa Collection" class="pc__img pc__img-second">
                       </a>
                     </div>
 
                     <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Cableknit Shawl</a></h6>
+                      <h6 class="pc__title"><a href="details.html">Outdoor Table</a></h6>
                       <div class="product-card__price d-flex align-items-center">
                         <span class="money price-old">$129</span>
                         <span class="money price text-secondary">$99</span>
@@ -426,14 +426,14 @@
                     <div class="pc__img-wrapper">
                       <a href="details.html">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-0-1.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
+                          alt="Wooden Sofa Collection" class="pc__img">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-0-2.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                          alt="Wooden Sofa Collection" class="pc__img pc__img-second">
                       </a>
                     </div>
 
                     <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Cropped Faux Leather Jacket</a></h6>
+                      <h6 class="pc__title"><a href="details.html">Cream Living Sofa Set</a></h6>
                       <div class="product-card__price d-flex">
                         <span class="money price text-secondary">$29</span>
                       </div>
@@ -463,14 +463,14 @@
                     <div class="pc__img-wrapper">
                       <a href="details.html">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-1-1.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
+                          alt="Wooden Sofa Collection" class="pc__img">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-1-2.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                          alt="Wooden Sofa Collection" class="pc__img pc__img-second">
                       </a>
                     </div>
 
                     <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Calvin Shorts</a></h6>
+                      <h6 class="pc__title"><a href="details.html">Green Lantern Theme</a></h6>
                       <div class="product-card__price d-flex">
                         <span class="money price text-secondary">$62</span>
                       </div>
@@ -500,14 +500,14 @@
                     <div class="pc__img-wrapper">
                       <a href="details.html">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-2-1.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
+                          alt="Wooden Sofa Collection" class="pc__img">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-2-2.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                          alt="Wooden Sofa Collection" class="pc__img pc__img-second">
                       </a>
                     </div>
 
                     <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Kirby T-Shirt</a></h6>
+                      <h6 class="pc__title"><a href="details.html">Kirby Home Decor</a></h6>
                       <div class="product-card__price d-flex">
                         <span class="money price text-secondary">$62</span>
                       </div>
@@ -537,14 +537,14 @@
                     <div class="pc__img-wrapper">
                       <a href="details.html">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-3-1.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
+                          alt="Wooden Sofa Collection" class="pc__img">
                         <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-3-2.jpg' ) }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                          alt="Wooden Sofa Collection" class="pc__img pc__img-second">
                       </a>
                     </div>
 
                     <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Cableknit Shawl</a></h6>
+                      <h6 class="pc__title"><a href="details.html">Pashmina Knit Aura</a></h6>
                       <div class="product-card__price d-flex align-items-center">
                         <span class="money price-old">$129</span>
                         <span class="money price text-secondary">$99</span>
@@ -590,7 +590,7 @@
                 Starting at $19
               </div>
               <div class="category-banner__item-content">
-                <h3 class="mb-0">Blazers</h3>
+                <h3 class="mb-0">Indoor Synergy</h3>
                 <a href="#" class="btn-link default-underline text-uppercase fw-medium">Shop Now</a>
               </div>
             </div>
@@ -603,7 +603,7 @@
                 Starting at $19
               </div>
               <div class="category-banner__item-content">
-                <h3 class="mb-0">Sportswear</h3>
+                <h3 class="mb-0">RetroFit</h3>
                 <a href="#" class="btn-link default-underline text-uppercase fw-medium">Shop Now</a>
               </div>
             </div>
@@ -622,12 +622,12 @@
               <div class="pc__img-wrapper">
                 <a href="details.html">
                   <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-4.jpg' ) }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
+                    alt="Wooden Sofa Collection" class="pc__img">
                 </a>
               </div>
 
               <div class="pc__info position-relative">
-                <h6 class="pc__title"><a href="details.html">Cropped Faux Leather Jacket</a></h6>
+                <h6 class="pc__title"><a href="details.html">Wooden Sofa Collection</a></h6>
                 <div class="product-card__price d-flex align-items-center">
                   <span class="money price text-secondary">$29</span>
                 </div>
@@ -658,12 +658,12 @@
               <div class="pc__img-wrapper">
                 <a href="details.html">
                   <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-5.jpg' ) }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
+                    alt="Wooden Sofa Collection" class="pc__img">
                 </a>
               </div>
 
               <div class="pc__info position-relative">
-                <h6 class="pc__title"><a href="details.html">Calvin Shorts</a></h6>
+                <h6 class="pc__title"><a href="details.html">Brown Studio Collection</a></h6>
                 <div class="product-card__price d-flex align-items-center">
                   <span class="money price text-secondary">$62</span>
                 </div>
@@ -694,13 +694,13 @@
               <div class="pc__img-wrapper">
                 <a href="details.html">
                   <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-6.jpg' ) }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
+                    alt="Wooden Sofa Collection" class="pc__img">
                 </a>
                 <div class="product-label text-uppercase bg-white top-0 left-0 mt-2 mx-2">New</div>
               </div>
 
               <div class="pc__info position-relative">
-                <h6 class="pc__title"><a href="details.html">Kirby T-Shirt</a></h6>
+                <h6 class="pc__title"><a href="details.html">Cream Collection </a></h6>
                 <div class="product-card__price d-flex align-items-center">
                   <span class="money price text-secondary">$17</span>
                 </div>
@@ -731,13 +731,13 @@
               <div class="pc__img-wrapper">
                 <a href="details.html">
                   <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-7.jpg' ) }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
+                    alt="Wooden Sofa Collection" class="pc__img">
                 </a>
                 <div class="product-label bg-red text-white right-0 top-0 left-auto mt-2 mx-2">-67%</div>
               </div>
 
               <div class="pc__info position-relative">
-                <h6 class="pc__title">Cableknit Shawl</h6>
+                <h6 class="pc__title">ME LifeStyle</h6>
                 <div class="product-card__price d-flex align-items-center">
                   <span class="money price-old">$129</span>
                   <span class="money price text-secondary">$99</span>
@@ -769,12 +769,12 @@
               <div class="pc__img-wrapper">
                 <a href="details.html">
                   <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-8.jpg' ) }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
+                    alt="Wooden Sofa Collection" class="pc__img">
                 </a>
               </div>
 
               <div class="pc__info position-relative">
-                <h6 class="pc__title"><a href="details.html">Cropped Faux Leather Jacket</a></h6>
+                <h6 class="pc__title"><a href="details.html">Wooden Sofa Collection</a></h6>
                 <div class="product-card__price d-flex align-items-center">
                   <span class="money price text-secondary">$29</span>
                 </div>
@@ -805,12 +805,12 @@
               <div class="pc__img-wrapper">
                 <a href="details.html">
                   <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-9.jpg' ) }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
+                    alt="Wooden Sofa Collection" class="pc__img">
                 </a>
               </div>
 
               <div class="pc__info position-relative">
-                <h6 class="pc__title"><a href="details.html">Calvin Shorts</a></h6>
+                <h6 class="pc__title"><a href="details.html">Leather Brown Collection</a></h6>
                 <div class="product-card__price d-flex align-items-center">
                   <span class="money price text-secondary">$62</span>
                 </div>
@@ -841,12 +841,12 @@
               <div class="pc__img-wrapper">
                 <a href="details.html">
                   <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-10.jpg' ) }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
+                    alt="Wooden Sofa Collection" class="pc__img">
                 </a>
               </div>
 
               <div class="pc__info position-relative">
-                <h6 class="pc__title"><a href="details.html">Kirby T-Shirt</a></h6>
+                <h6 class="pc__title"><a href="details.html">Cream Collection </a></h6>
                 <div class="product-card__price d-flex align-items-center">
                   <span class="money price text-secondary">$17</span>
                 </div>
@@ -877,12 +877,12 @@
               <div class="pc__img-wrapper">
                 <a href="details.html">
                   <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-11.jpg' ) }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
+                    alt="Wooden Sofa Collection" class="pc__img">
                 </a>
               </div>
 
               <div class="pc__info position-relative">
-                <h6 class="pc__title">Cableknit Shawl</h6>
+                <h6 class="pc__title">ME LifeStyle</h6>
                 <div class="product-card__price d-flex align-items-center">
                   <span class="money price-old">$129</span>
                   <span class="money price text-secondary">$99</span>
