@@ -41,9 +41,9 @@
                         <div class="pb-3"></div>
 
                         <div class="form-floating mb-3">
-                            <input id="mobile" type="text" class="form-control form-control_gray @error('mobile') is-invalid @enderror" name="mobile" value="{{ old('mobile') }}" required autocomplete="mobile">
-                            <label for="mobile">Mobile *</label>
-                            @error('mobile')
+                            <input id="phone" type="text" class="form-control form-control_gray @error('phone') is-invalid @enderror" name="phone" value="{{ old('phone') }}" required autocomplete="phone">
+                            <label for="phone">Phone*</label>
+                            @error('phone')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
                                 </span>
@@ -51,7 +51,7 @@
                         </div>
 
                         <div class="form-floating mb-3">
-                            <input id="address" type="text" class="form-control form-control_gray @error('address') is-invalid @enderror" name="address" value="{{ old('mobile') }}" required autocomplete="address">
+                            <input id="address" type="text" class="form-control form-control_gray @error('address') is-invalid @enderror" name="address" value="{{ old('address') }}" required autocomplete="address">
                             <label for="address">Address *</label>
                             @error('address')
                                 <span class="invalid-feedback" role="alert">
@@ -74,7 +74,7 @@
 
                         <div class="form-floating mb-3">
                             <input  id="password-confirm" type="password" class="form-control form-control_gray" name="password_confirmation" required autocomplete="new-password" >
-                            <label for="password">Confirm Password *</label>                            
+                            <label for="password">Confirm Password *</label>
                         </div>
 
                         <div class="d-flex align-items-center mb-3 pb-2">

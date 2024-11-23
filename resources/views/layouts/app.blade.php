@@ -8,7 +8,7 @@
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>{{ config('app.name', 'Laravel') }}</title>
+  <title>{{ config('app.name', 'Aura Home-Your solution of complete home') }}</title>
 
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="aura home decor" />
@@ -257,7 +257,7 @@
       padding-bottom: 8px;
     }
 
-    
+
   </style>
   <div class="header-mobile header_sticky">
     <div class="container d-flex align-items-center h-100">
