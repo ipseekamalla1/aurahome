@@ -17,7 +17,6 @@ class CartController extends Controller
 public function addToCart(Request $request)
 {
     Cart::instance('cart')->add($request->id,$request->name,$request->quantity,$request->price)->associate('App\Models\Product');
-    session()->flash('success', 'Product is Added to Cart Successfully !');
-    return response()->json(['status'=>200,'message'=>'Success ! Item Successfully added to your cart.']);
-} 
+    return redirect()->back();
+}
 }

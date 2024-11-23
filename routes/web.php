@@ -22,6 +22,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/shop/{product_slug}',[ShopController::class,'product_details'])->name("shop.product.details");
 
     Route::get('/cart',[CartController::class,'index'])->name('cart.index');
+    Route::post('/cart/add', [CartController::class, 'add_to_cart'])->name('cart.add');
+
 
 
 });
