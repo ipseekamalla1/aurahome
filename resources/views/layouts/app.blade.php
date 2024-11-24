@@ -502,7 +502,6 @@
             </svg>
 
             @if (Cart::instance('cart')->content()->count()>0)
-
             <span class="cart-amount d-block position-absolute js-cart-items-count">{{Cart::instance('cart')->content()->count()}}</span>
             @endif
           </a>
