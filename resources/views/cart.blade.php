@@ -16,21 +16,21 @@
     <section class="shop-checkout container">
         <h2 class="page-title">Cart</h2>
         <div class="checkout-steps">
-            <a href="javascript:void();" class="checkout-steps__item active">
+            <a href="javascript:void(0);" class="checkout-steps__item active">
                 <span class="checkout-steps__item-number">01</span>
                 <span class="checkout-steps__item-title">
                     <span>Shopping Bag</span>
                     <em>Manage Your Items List</em>
                 </span>
             </a>
-            <a href="javascript:void();" class="checkout-steps__item">
+            <a href="javascript:void(0);" class="checkout-steps__item">
                 <span class="checkout-steps__item-number">02</span>
                 <span class="checkout-steps__item-title">
                     <span>Shipping and Checkout</span>
                     <em>Checkout Your Items List</em>
                 </span>
             </a>
-            <a href="javascript:void();" class="checkout-steps__item">
+            <a href="javascript:void(0);" class="checkout-steps__item">
                 <span class="checkout-steps__item-number">03</span>
                 <span class="checkout-steps__item-title">
                     <span>Confirmation</span>
@@ -39,7 +39,7 @@
             </a>
         </div>
         <div class="shopping-cart">
-            @if($cartItems->count() > 0)
+            @if($items->count() > 0)
             <div class="cart-table__wrapper">
                 <table class="cart-table">
                     <thead>
@@ -53,16 +53,16 @@
                         </tr>
                     </thead>
                     <tbody></tbody>
-                    @foreach ($cartItems as $cartItem)
+                    @foreach ($items as $item)
                         <tr>
                             <td>
                                 <div class="shopping-cart__product-item">
-                                    <img loading="lazy" src="{{asset('uploads/products/thumbnails')}}/{{$cartItem->model->image}}" width="120" height="120" alt="" />
+                                    <img loading="lazy" src="{{asset('uploads/products/thumbnails')}}/{{$item->model->image}}" width="120" height="120" alt="{{$item->name}}" />
                                 </div>
                             </td>
                             <td>
                                 <div class="shopping-cart__product-item__detail">
-                                    <h4>{{$cartItem->name}}</h4>
+                                    <h4>{{$item->name}}</h4>
                                     <ul class="shopping-cart__product-item__options">
                                         <li>Color: Yellow</li>
                                         <li>Size: L</li>
@@ -70,17 +70,17 @@
                                 </div>
                             </td>
                             <td>
-                                <span class="shopping-cart__product-price">${{$cartItem->price}}</span>
+                                <span class="shopping-cart__product-price">${{$item->price}}</span>
                             </td>
                             <td>
                                 <div class="qty-control position-relative">
-                                    <input type="number" name="quantity" value="{{$cartItem->qty}}" min="1" class="qty-control__number text-center">
+                                    <input type="number" name="quantity" value="3"min="1" class="qty-control__number text-center">
                                     <div class="qty-control__reduce">-</div>
                                     <div class="qty-control__increase">+</div>
                                 </div>
                             </td>
                             <td>
-                                <span class="shopping-cart__subtotal">${{$cartItem->subTotal()}}</span>
+                                <span class="shopping-cart__subtotal">${{$item->subTotal()}}</span>
                             </td>
                             <td>
                             <a href="javascript:void(0)" class="remove-cart">

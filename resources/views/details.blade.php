@@ -111,16 +111,18 @@
                 <p>{{$product->short_description}}</p>
             </div>
             <form name="addtocart-form" method="post" action="{{route('cart.add')}}">
+                @csrf
                 <div class="product-single__addtocart">
                     <div class="qty-control position-relative">
                         <input type="number" name="quantity" value="1" min="1" class="qty-control__number text-center">
                         <div class="qty-control__reduce">-</div>
                         <div class="qty-control__increase">+</div>
                     </div><!-- .qty-control -->
+
                     <input type="hidden" name="id" value="{{$product->id}}" />
-        <input type="hidden" name="name" value="{{$product->name}}" />
-        <input type="hidden" name="price" value="{{$product->sale_price == '' ? $product->regular_price:$product->sale_price}}" />
-        <button type="submit" class="btn btn-primary">Add to Cart</button>
+                    <input type="hidden" name="name" value="{{$product->name}}" />
+                    <input type="hidden" name="price" value="{{$product->sale_price == '' ? $product->regular_price:$product->sale_price}}" />
+                    <button type="submit" class="btn btn-primary btn-addtocart">Add to Cart</button>
                 </div>
             </form>
             <div class="product-single__addtolinks">
@@ -391,7 +393,7 @@
             }
           }'>
                 <div class="swiper-wrapper">
-                @foreach ($rproducts as $rproduct)
+                    @foreach ($rproducts as $rproduct)
                     <div class="swiper-slide product-card">
                         <div class="pc__img-wrapper">
                             <a href="details.php">
@@ -401,8 +403,8 @@
                                 @endif
                             </a>
                             <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside"
-                            data-aside="cartDrawer"
-                            title="Add To Cart">Add To Cart</button>
+                                data-aside="cartDrawer"
+                                title="Add To Cart">Add To Cart</button>
                         </div>
 
                         <div class="pc__info position-relative">
