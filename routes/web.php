@@ -32,8 +32,7 @@ Route::middleware(['auth'])->group(function () {
     Route::delete('/cart/remove/{rowId}', [CartController::class, 'remove_item'])->name('cart.item.remove');
     Route::delete('/cart/clear', [CartController::class, 'empty_cart'])->name('cart.empty');
     Route::get('/account-orders', [UserController::class, 'account_orders'])->name('user.account.orders');
-    Route::get('/account-order-detials/{order_id}',[UserController::class,'account_order_details'])->name('user.acccount.order.details');
-
+    Route::get('/account-order-detials/{order_id}', [UserController::class, 'account_order_details'])->name('user.acccount.order.details');
 });
 
 // Routes for Admin with Middleware
@@ -59,4 +58,5 @@ Route::middleware(['auth', AuthAdmin::class])->group(function () {
     Route::delete('/admin/product/{id}/delete', [AdminController::class, 'delete_product'])->name('admin.product.delete');
     Route::get('/admin/orders', [AdminController::class, 'orders'])->name('admin.orders');
     Route::get('/admin/order/items/{order_id}', [AdminController::class, 'order_items'])->name('admin.order.items');
+    Route::put('/admin/order/update-status', [AdminController::class, 'update_order_status'])->name('admin.order.status.update');
 });
