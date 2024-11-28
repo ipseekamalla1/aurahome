@@ -14,22 +14,23 @@ Auth::routes();
 
 // Public Routes
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
+Route::get('/checkout', [CartController::class, 'checkout'])->name('cart.checkout');
+Route::post('/place-order', [CartController::class, 'place_order'])->name('cart.place.order');
+Route::get('/order-confirmation', [CartController::class, 'confirmation'])->name('cart.confirmation');
+
 
 // Routes for Authenticated Users
 Route::middleware(['auth'])->group(function () {
     Route::get('/account-dashboard', [UserController::class, 'index'])->name('user.index');
-    Route::get('/shop',[ShopController::class,'index'])->name('shop.index');
-    Route::get('/shop/{product_slug}',[ShopController::class,'product_details'])->name("shop.product.details");
+    Route::get('/shop', [ShopController::class, 'index'])->name('shop.index');
+    Route::get('/shop/{product_slug}', [ShopController::class, 'product_details'])->name("shop.product.details");
 
-    Route::get('/cart',[CartController::class,'index'])->name('cart.index');
+    Route::get('/cart', [CartController::class, 'index'])->name('cart.index');
     Route::post('/cart/add', [CartController::class, 'add_to_cart'])->name('cart.add');
-    Route::put('/cart/increase-quantity/{rowId}',[CartController::class,'increase_cart_quantity'])->name('cart.qty.increase');
-    Route::put('/cart/decrease-quantity/{rowId}',[CartController::class,'decrease_cart_quantity'])->name('cart.qty.decrease');
-    Route::delete('/cart/remove/{rowId}',[CartController::class,'remove_item'])->name('cart.item.remove');
-    Route::delete('/cart/clear',[CartController::class,'empty_cart'])->name('cart.empty');
-
-
-
+    Route::put('/cart/increase-quantity/{rowId}', [CartController::class, 'increase_cart_quantity'])->name('cart.qty.increase');
+    Route::put('/cart/decrease-quantity/{rowId}', [CartController::class, 'decrease_cart_quantity'])->name('cart.qty.decrease');
+    Route::delete('/cart/remove/{rowId}', [CartController::class, 'remove_item'])->name('cart.item.remove');
+    Route::delete('/cart/clear', [CartController::class, 'empty_cart'])->name('cart.empty');
 });
 
 // Routes for Admin with Middleware
@@ -53,4 +54,5 @@ Route::middleware(['auth', AuthAdmin::class])->group(function () {
     Route::get('/admin/product/{id}/edit', [AdminController::class, 'edit_product'])->name('admin.product.edit');
     Route::put('/admin/product/update', [AdminController::class, 'update_product'])->name('admin.product.update');
     Route::delete('/admin/product/{id}/delete', [AdminController::class, 'delete_product'])->name('admin.product.delete');
+    Route::get('/admin/orders',[AdminController::class,'orders'])->name('admin.orders');
 });
