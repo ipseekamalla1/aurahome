@@ -332,16 +332,13 @@
                     </select>
 
                     <select class="shop-acs__select form-select w-auto border-0 py-0 order-1 order-md-0" aria-label="Page Size" id="pagesize"
-                        name="pagesize">
-                        <option selected>Default Sorting</option>
-                        <option value="1">Featured</option>
-                        <option value="2">Best selling</option>
-                        <option value="3">Alphabetically, A-Z</option>
-                        <option value="3">Alphabetically, Z-A</option>
-                        <option value="3">Price, low to high</option>
-                        <option value="3">Price, high to low</option>
-                        <option value="3">Date, old to new</option>
-                        <option value="3">Date, new to old</option>
+                        name="orderby" id="orderby" >
+                        <option selected value="-1" {{$order == -1 ? 'selected':''}}>Default</option>
+                        <option value="1" {{$order == 1 ? 'selected':''}} >Date, New to Old</option>
+                        <option value="2" {{$order == 2 ? 'selected':''}}>Date, Old to New</option>
+                        <option value="3" {{$order == 3 ? 'selected':''}}>Price, Low to High</option>
+                        <option value="4" {{$order == 4 ? 'selected':''}}>Price, Low to High</option>
+                        
                     </select>
 
                     <div class="shop-asc__seprator mx-3 bg-light d-none d-md-block order-md-0"></div>
@@ -490,6 +487,8 @@
     @csrf
     <input type="hidden"  name="page" value="{{$products->currentPage()}}">
     <input type="hidden" name="size" id="size"  value="{{$size}}" />
+    <input type="hidden" name="order" id="order"  value="{{$order}}" />
+
 </form>
 @endsection
 @push('scripts')
@@ -498,7 +497,12 @@
         $("#pagesize").on("change",function(){
             $("#size").val($("#pagesize option:selected").val());
             $("frmfilter").submit();
-        })
+        });
+
+        $("#orderby").on("change",function(){
+            $('#orderby').val($(#'orderby option:selected').val());
+            $('frmfilter').submit();
+        });
     })
 </script>
 @endpush
