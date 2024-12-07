@@ -256,8 +256,6 @@
       padding-top: 8px;
       padding-bottom: 8px;
     }
-
-
   </style>
   <div class="header-mobile header_sticky">
     <div class="container d-flex align-items-center h-100">
@@ -400,10 +398,10 @@
               <a href="{{route('home.index')}}" class="navigation__link">Home</a>
             </li>
             <li class="navigation__item">
-              <a href="{{route('shop.index')}}"  class="navigation__link">Shop</a>
+              <a href="{{route('shop.index')}}" class="navigation__link">Shop</a>
             </li>
             <li class="navigation__item">
-              <a href="{{route('cart.index')}}"class="navigation__link">Cart</a>
+              <a href="{{route('cart.index')}}" class="navigation__link">Cart</a>
             </li>
             <li class="navigation__item">
               <a href="about.html" class="navigation__link">About</a>
@@ -521,8 +519,8 @@
               <img src="{{ asset ('assets/images/logo.png') }}" alt="SurfsideMedia" class="logo__image d-block" />
             </a>
           </div>
-          <p class="footer-address">123 Beach Avenue, Surfside City, CA 00000</p>
-          <p class="m-0"><strong class="fw-medium">contact@surfsidemedia.in</strong></p>
+          <p class="footer-address">123 Beach Avenue, Toronto City, CA 00000</p>
+          <p class="m-0"><strong class="fw-medium">contact@aurahome.ca</strong></p>
           <p><strong class="fw-medium">+1 000-000-0000</strong></p>
 
           <ul class="social-links list-unstyled d-flex flex-wrap mb-0">
@@ -586,8 +584,8 @@
           <ul class="sub-menu__list list-unstyled">
             <li class="sub-menu__item"><a href="shop2.html" class="menu-link menu-link_us-s">New Arrivals</a></li>
             <li class="sub-menu__item"><a href="shop3.html" class="menu-link menu-link_us-s">Accessories</a></li>
-            <li class="sub-menu__item"><a href="shop4.html" class="menu-link menu-link_us-s">Men</a></li>
-            <li class="sub-menu__item"><a href="shop5.html" class="menu-link menu-link_us-s">Women</a></li>
+            <li class="sub-menu__item"><a href="shop4.html" class="menu-link menu-link_us-s">Sofa</a></li>
+            <li class="sub-menu__item"><a href="shop5.html" class="menu-link menu-link_us-s">Bed</a></li>
             <li class="sub-menu__item"><a href="shop1.html" class="menu-link menu-link_us-s">Shop All</a></li>
           </ul>
         </div>
@@ -608,10 +606,10 @@
         <div class="footer-column footer-menu mb-4 mb-lg-0">
           <h6 class="sub-menu__title text-uppercase">Categories</h6>
           <ul class="sub-menu__list list-unstyled">
-            <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Shirts</a></li>
-            <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Jeans</a></li>
-            <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Shoes</a></li>
-            <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Bags</a></li>
+            <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Coffee Tables</a></li>
+            <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">TV Entertainment Units</a></li>
+            <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Dressers & Chests</a></li>
+            <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Dining Tables & Chairs</a></li>
             <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Shop All</a></li>
           </ul>
         </div>
@@ -620,7 +618,7 @@
 
     <div class="footer-bottom">
       <div class="container d-md-flex align-items-center">
-        <span class="footer-copyright me-auto">©2024 Surfside Media</span>
+        <span class="footer-copyright me-auto">Copyright © 2024</span>
         <div class="footer-settings d-md-flex align-items-center">
           <a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp; <a href="terms-conditions.html">Terms &amp;
             Conditions</a>
