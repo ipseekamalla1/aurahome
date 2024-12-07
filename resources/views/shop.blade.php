@@ -28,168 +28,88 @@
                         aria-labelledby="accordion-heading-1" data-bs-parent="#categories-list">
                         <div class="accordion-body px-0 pb-0 pt-3">
                             <ul class="list list-inline mb-0">
+                                <!-- Living Room Furniture -->
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Sofas & Couches</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Recliners</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Coffee Tables</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">TV Stands</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Bookshelves</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Ottomans</a>
+                                </li>
+
+                                <!-- Bedroom Furniture -->
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Beds & Bed Frames</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Nightstands</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Dressers</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Wardrobes</a>
+                                </li>
+
+                                <!-- Dining Room Furniture -->
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Dining Tables</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Dining Chairs</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Bar Stools</a>
+                                </li>
+
+                                <!-- Office Furniture -->
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Desks</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Office Chairs</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">File Cabinets</a>
+                                </li>
+
+                                <!-- Outdoor Furniture -->
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Patio Furniture Sets</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Outdoor Chairs</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="menu-link py-1">Garden Tables</a>
+                                </li>
+
+                                <!-- Decor -->
                                 <li class="list-item">
                                     <a href="#" class="menu-link py-1">Throw Pillows</a>
                                 </li>
                                 <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Table lamps</a>
+                                    <a href="#" class="menu-link py-1">Table Lamps</a>
                                 </li>
                                 <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Area rugs</a>
+                                    <a href="#" class="menu-link py-1">Area Rugs</a>
                                 </li>
                                 <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Wall art</a>
-                                </li>
-                                <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Mirrors</a>
-                                </li>
-                                <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Throw blankets</a>
-                                </li>
-                                <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Candles</a>
-                                </li>
-                                <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Holders</a>
-                                </li>
-                                <li class="list-item">
-                                    <a href="#" class="menu-link py-1">Bowls</a>
+                                    <a href="#" class="menu-link py-1">Wall Art</a>
                                 </li>
                                 <li class="list-item">
                                     <a href="#" class="menu-link py-1">Vases</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="accordion" id="color-filters">
-                <div class="accordion-item mb-4 pb-3">
-                    <h5 class="accordion-header" id="accordion-heading-1">
-                        <button class="accordion-button p-0 border-0 fs-5 text-uppercase" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#accordion-filter-2" aria-expanded="true" aria-controls="accordion-filter-2">
-                            Color
-                            <svg class="accordion-button__icon type2" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg">
-                                <g aria-hidden="true" stroke="none" fill-rule="evenodd">
-                                    <path
-                                        d="M5.35668 0.159286C5.16235 -0.053094 4.83769 -0.0530941 4.64287 0.159286L0.147611 5.05963C-0.0492049 5.27473 -0.049205 5.62357 0.147611 5.83813C0.344427 6.05323 0.664108 6.05323 0.860924 5.83813L5 1.32706L9.13858 5.83867C9.33589 6.05378 9.65507 6.05378 9.85239 5.83867C10.0492 5.62357 10.0492 5.27473 9.85239 5.06018L5.35668 0.159286Z" />
-                                </g>
-                            </svg>
-                        </button>
-                    </h5>
-                    <div id="accordion-filter-2" class="accordion-collapse collapse show border-0"
-                        aria-labelledby="accordion-heading-1" data-bs-parent="#color-filters">
-                        <div class="accordion-body px-0 pb-0">
-                            <div class="d-flex flex-wrap">
-                                <a href="#" class="swatch-color js-filter" style="color: #0a2472"></a>
-                                <a href="#" class="swatch-color js-filter" style="color: #d7bb4f"></a>
-                                <a href="#" class="swatch-color js-filter" style="color: #282828"></a>
-                                <a href="#" class="swatch-color js-filter" style="color: #b1d6e8"></a>
-                                <a href="#" class="swatch-color js-filter" style="color: #9c7539"></a>
-                                <a href="#" class="swatch-color js-filter" style="color: #d29b48"></a>
-                                <a href="#" class="swatch-color js-filter" style="color: #e6ae95"></a>
-                                <a href="#" class="swatch-color js-filter" style="color: #d76b67"></a>
-                                <a href="#" class="swatch-color swatch_active js-filter" style="color: #bababa"></a>
-                                <a href="#" class="swatch-color js-filter" style="color: #bfdcc4"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="accordion" id="size-filters">
-                <div class="accordion-item mb-4 pb-3">
-                    <h5 class="accordion-header" id="accordion-heading-size">
-                        <button class="accordion-button p-0 border-0 fs-5 text-uppercase" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#accordion-filter-size" aria-expanded="true" aria-controls="accordion-filter-size">
-                            Sizes
-                            <svg class="accordion-button__icon type2" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg">
-                                <g aria-hidden="true" stroke="none" fill-rule="evenodd">
-                                    <path
-                                        d="M5.35668 0.159286C5.16235 -0.053094 4.83769 -0.0530941 4.64287 0.159286L0.147611 5.05963C-0.0492049 5.27473 -0.049205 5.62357 0.147611 5.83813C0.344427 6.05323 0.664108 6.05323 0.860924 5.83813L5 1.32706L9.13858 5.83867C9.33589 6.05378 9.65507 6.05378 9.85239 5.83867C10.0492 5.62357 10.0492 5.27473 9.85239 5.06018L5.35668 0.159286Z" />
-                                </g>
-                            </svg>
-                        </button>
-                    </h5>
-                    <div id="accordion-filter-size" class="accordion-collapse collapse show border-0"
-                        aria-labelledby="accordion-heading-size" data-bs-parent="#size-filters">
-                        <div class="accordion-body px-0 pb-0">
-                            <div class="d-flex flex-wrap">
-                                <a href="#" class="swatch-size btn btn-sm btn-outline-light mb-3 me-3 js-filter">XS</a>
-                                <a href="#" class="swatch-size btn btn-sm btn-outline-light mb-3 me-3 js-filter">S</a>
-                                <a href="#" class="swatch-size btn btn-sm btn-outline-light mb-3 me-3 js-filter">M</a>
-                                <a href="#" class="swatch-size btn btn-sm btn-outline-light mb-3 me-3 js-filter">L</a>
-                                <a href="#" class="swatch-size btn btn-sm btn-outline-light mb-3 me-3 js-filter">XL</a>
-                                <a href="#" class="swatch-size btn btn-sm btn-outline-light mb-3 me-3 js-filter">XXL</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="accordion" id="brand-filters">
-                <div class="accordion-item mb-4 pb-3">
-                    <h5 class="accordion-header" id="accordion-heading-brand">
-                        <button class="accordion-button p-0 border-0 fs-5 text-uppercase" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#accordion-filter-brand" aria-expanded="true" aria-controls="accordion-filter-brand">
-                            Brands
-                            <svg class="accordion-button__icon type2" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg">
-                                <g aria-hidden="true" stroke="none" fill-rule="evenodd">
-                                    <path
-                                        d="M5.35668 0.159286C5.16235 -0.053094 4.83769 -0.0530941 4.64287 0.159286L0.147611 5.05963C-0.0492049 5.27473 -0.049205 5.62357 0.147611 5.83813C0.344427 6.05323 0.664108 6.05323 0.860924 5.83813L5 1.32706L9.13858 5.83867C9.33589 6.05378 9.65507 6.05378 9.85239 5.83867C10.0492 5.62357 10.0492 5.27473 9.85239 5.06018L5.35668 0.159286Z" />
-                                </g>
-                            </svg>
-                        </button>
-                    </h5>
-                    <div id="accordion-filter-brand" class="accordion-collapse collapse show border-0"
-                        aria-labelledby="accordion-heading-brand" data-bs-parent="#brand-filters">
-                        <div class="search-field multi-select accordion-body px-0 pb-0">
-                            <select class="d-none" multiple name="total-numbers-list">
-                                <option value="1">IKEA</option>
-                                <option value="2">West Elm</option>
-                                <option value="3">Pottery Barn</option>
-                                <option value="4">CB2</option>
-                                <option value="5">Wayfair</option>
-                                <option value="5">Zara home</option>
-                                <option value="5">H&M Home</option>
-                            </select>
-                            <div class="search-field__input-wrapper mb-3">
-                                <input type="text" name="search_text"
-                                    class="search-field__input form-control form-control-sm border-light border-2"
-                                    placeholder="Search" />
-                            </div>
-                            <ul class="multi-select__list list-unstyled">
-                                <li class="search-suggestion__item multi-select__item text-primary js-search-select js-multi-select">
-                                    <span class="me-auto">IKEA</span>
-                                    <span class="text-secondary">2</span>
-                                </li>
-                                <li class="search-suggestion__item multi-select__item text-primary js-search-select js-multi-select">
-                                    <span class="me-auto">West Elm</span>
-                                    <span class="text-secondary">7</span>
-                                </li>
-                                <li class="search-suggestion__item multi-select__item text-primary js-search-select js-multi-select">
-                                    <span class="me-auto">Pottery Barn</span>
-                                    <span class="text-secondary">10</span>
-                                </li>
-                                <li class="search-suggestion__item multi-select__item text-primary js-search-select js-multi-select">
-                                    <span class="me-auto">CB2</span>
-                                    <span class="text-secondary">39</span>
-                                </li>
-                                <li class="search-suggestion__item multi-select__item text-primary js-search-select js-multi-select">
-                                    <span class="me-auto">Wayfair</span>
-                                    <span class="text-secondary">95</span>
-                                </li>
-                                <li class="search-suggestion__item multi-select__item text-primary js-search-select js-multi-select">
-                                    <span class="me-auto">Zara home</span>
-                                    <span class="text-secondary">1092</span>
-                                </li>
-                                <li class="search-suggestion__item multi-select__item text-primary js-search-select js-multi-select">
-                                    <span class="me-auto">H&M Home</span>
-                                    <span class="text-secondary">48</span>
                                 </li>
                             </ul>
                         </div>
@@ -323,22 +243,22 @@
                 </div>
 
                 <div class="shop-acs d-flex align-items-center justify-content-between justify-content-md-end flex-grow-1">
-                <select class="shop-acs__select form-select w-auto border-0 py-0 order-1 order-md-0" aria-label="Sort Items"
+                    <select class="shop-acs__select form-select w-auto border-0 py-0 order-1 order-md-0" aria-label="Sort Items"
                         name="total-number">
-                        <option value='12' selected {{ $size==12 ? 'selected':'' }} >Show </option>
+                        <option value='12' selected {{ $size==12 ? 'selected':'' }}>Show </option>
                         <option value="24" selected {{ $size==24 ? 'selected':'' }}>24</option>
                         <option value="48" selected {{ $size==48 ? 'selected':'' }}>48</option>
-                        <option value="102" selected {{ $size==102 ? 'selected':'' }}>102</option>                        
+                        <option value="102" selected {{ $size==102 ? 'selected':'' }}>102</option>
                     </select>
 
                     <select class="shop-acs__select form-select w-auto border-0 py-0 order-1 order-md-0" aria-label="Page Size" id="pagesize"
-                        name="orderby" id="orderby" >
+                        name="orderby" id="orderby">
                         <option selected value="-1" {{$order == -1 ? 'selected':''}}>Default</option>
-                        <option value="1" {{$order == 1 ? 'selected':''}} >Date, New to Old</option>
+                        <option value="1" {{$order == 1 ? 'selected':''}}>Date, New to Old</option>
                         <option value="2" {{$order == 2 ? 'selected':''}}>Date, Old to New</option>
                         <option value="3" {{$order == 3 ? 'selected':''}}>Price, Low to High</option>
                         <option value="4" {{$order == 4 ? 'selected':''}}>Price, Low to High</option>
-                        
+
                     </select>
 
                     <div class="shop-asc__seprator mx-3 bg-light d-none d-md-block order-md-0"></div>
@@ -400,7 +320,7 @@
                                 <input type="hidden" name="quantity" value="1" />
                                 <input type="hidden" name="name" value="{{$product->name}}" />
                                 <input type="hidden" name="price" value="{{$product->sale_price == '' ? $product->regular_price:$product->sale_price}}" />
-                                <button type="submit "class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside"
+                                <button type="submit " class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside"
                                     data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
                             </form>
                             @endif
@@ -485,22 +405,22 @@
 
 <form id="frmfilter" method="GET" action="{{route('shop.index')}}">
     @csrf
-    <input type="hidden"  name="page" value="{{$products->currentPage()}}">
-    <input type="hidden" name="size" id="size"  value="{{$size}}" />
-    <input type="hidden" name="order" id="order"  value="{{$order}}" />
+    <input type="hidden" name="page" value="{{$products->currentPage()}}">
+    <input type="hidden" name="size" id="size" value="{{$size}}" />
+    <input type="hidden" name="order" id="order" value="{{$order}}" />
 
 </form>
 @endsection
 @push('scripts')
 <script>
-    $(function(){
-        $("#pagesize").on("change",function(){
+    $(function() {
+        $("#pagesize").on("change", function() {
             $("#size").val($("#pagesize option:selected").val());
             $("frmfilter").submit();
         });
 
-        $("#orderby").on("change",function(){
-            $('#orderby').val($(#'orderby option:selected').val());
+        $("#orderby").on("change", function() {
+            $('#orderby').val($(# 'orderby option:selected').val());
             $('frmfilter').submit();
         });
     })
