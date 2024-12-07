@@ -32,7 +32,7 @@ class AuthAdmin
         else
         {
             session()->flush();
-            return redirect()->route('login');
-        }        
+            return redirect()->route('');
+        }
     }
 }

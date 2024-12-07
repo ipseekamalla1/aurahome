@@ -43,35 +43,32 @@
                 <div class="billing-info__wrapper">
                     <div class="row">
                         <div class="col-6">
-                            <h4>SHIPPING DETAILS</h4> 
+                            <h4>SHIPPING DETAILS</h4>
                         </div>
                         <div class="col-6">
-                            @if($address)  
-                            <a href="{{route('user.account.addresses')}}" class="btn btn-info btn-sm float-right">Change Address</a> 
-                            <a href="{{route('user.account.address.edit',['address_id'=>$address->id])}}" class="btn btn-warning btn-sm float-right mr-3">Edit Address</a> 
-                            @endif
+                           
                         </div>
-                    </div>   
-                    @if($address) 
+                    </div>
+                    @if($address)
                     <div class="row">
                         <div class="col-md-12">
                             <div class="my-account__address-list">
-                                <div class="my-account__address-item">                                    
+                                <div class="my-account__address-item">
                                     <div class="my-account__address-item__detail">
                                         <p>{{$address->name}}</p>
                                         <p>{{$address->address}}</p>
                                         <p>{{$address->landmark}}</p>
                                         <p>{{$address->city}}, {{$address->state}}, {{$address->country}}</p>
                                         <p>{{$address->zip}}</p>
-                                        
 
-                                        <p>Phone :- {{$address->phone}}</p>                                        
+
+                                        <p>Phone :- {{$address->phone}}</p>
                                     </div>
-                                </div>                                
+                                </div>
                             </div>
                         </div>
-                    </div>  
-                    @else             
+                    </div>
+                    @else
                     <div class="row mt-5">
                         <div class="col-md-6">
                             <div class="form-floating my-3">
@@ -93,13 +90,13 @@
                                 <label for="zip">Pincode *</label>
                                 <span class="text-danger">@error('zip') {{$message}} @enderror</span>
                             </div>
-                        </div>                        
+                        </div>
                         <div class="col-md-4">
                             <div class="form-floating mt-3 mb-3">
                                 <input type="text" class="form-control" name="state" value="{{old('state')}}">
                                 <label for="state">State *</label>
                                 <span class="text-danger">@error('state') {{$message}} @enderror</span>
-                            </div>                            
+                            </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-floating my-3">
@@ -121,16 +118,16 @@
                                 <label for="locality">Road Name, Area, Colony *</label>
                                 <span class="text-danger">@error('locality') {{$message}} @enderror</span>
                             </div>
-                        </div>    
+                        </div>
                         <div class="col-md-12">
                             <div class="form-floating my-3">
                                 <input type="text" class="form-control" name="landmark" value="{{old('landmark')}}">
                                 <label for="landmark">Landmark *</label>
                                 <span class="text-danger">@error('landmark') {{$message}} @enderror</span>
                             </div>
-                        </div>                                         
-                    </div> 
-                    @endif                   
+                        </div>
+                    </div>
+                    @endif
                 </div>
                 <div class="checkout__totals-wrapper">
                     <div class="sticky-content">
@@ -153,7 +150,7 @@
                                             ${{$item->subtotal}}
                                         </td>
                                     </tr>
-                                    @endforeach                                    
+                                    @endforeach
                                 </tbody>
                             </table>
                             @if(Session::has('discounts'))
@@ -162,19 +159,19 @@
                                     <tr>
                                         <th>Subtotal</th>
                                         <td class="text-right">${{Cart::instance('cart')->subtotal()}}</td>
-                                    </tr> 
+                                    </tr>
                                     <tr>
                                         <th>Discount {{Session("coupon")["code"]}}</th>
                                         <td class="text-right">-${{Session("discounts")["discount"]}}</td>
-                                    </tr> 
+                                    </tr>
                                     <tr>
                                         <th>Subtotal After Discount</th>
                                         <td class="text-right">${{Session("discounts")["subtotal"]}}</td>
-                                    </tr>   
+                                    </tr>
                                     <tr>
                                         <th>SHIPPING</th>
                                         <td class="text-right">Free</td>
-                                    </tr>                             
+                                    </tr>
                                     <tr>
                                         <th>VAT</th>
                                         <td class="text-right">${{Session("discounts")["tax"]}}</td>
@@ -212,19 +209,19 @@
                             <div class="form-check">
                                 <input class="form-check-input form-check-input_fill" type="radio" name="mode" value="card">
                                 <label class="form-check-label" for="mode_1">
-                                    Debit or Credit Card                                    
+                                    Debit or Credit Card
                                 </label>
-                            </div> 
+                            </div>
                             <div class="form-check">
                                 <input class="form-check-input form-check-input_fill" type="radio" name="mode" value="paypal">
                                 <label class="form-check-label" for="mode_4">
-                                    Paypal                                    
+                                    Paypal
                                 </label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input form-check-input_fill" type="radio" name="mode" value="cod" checked>
                                 <label class="form-check-label" for="mode_3">
-                                    Cash on delivery                                    
+                                    Cash on delivery
                                 </label>
                             </div>
                             <div class="policy-text">
