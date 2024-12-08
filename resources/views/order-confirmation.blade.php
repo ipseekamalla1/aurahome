@@ -38,75 +38,7 @@
                 </svg>
                 <h3>Your order is completed!</h3>
                 <p>Thank you. Your order has been received.</p>
-            </div>
-            <div class="order-info">
-                <div class="order-info__item">
-                    <label>Order Number</label>
-                    <span>13119</span>
-                </div>
-                <div class="order-info__item">
-                    <label>Date</label>
-                    <span>27/10/2023</span>
-                </div>
-                <div class="order-info__item">
-                    <label>Total</label>
-                    <span>$81.40</span>
-                </div>
-                <div class="order-info__item">
-                    <label>Paymetn Method</label>
-                    <span>Direct Bank Transfer</span>
-                </div>
-            </div>
-            <div class="checkout__totals-wrapper">
-                <div class="checkout__totals">
-                    <h3>Order Details</h3>
-                    <table class="checkout-cart-items">
-                        <thead>
-                            <tr>
-                                <th>PRODUCT</th>
-                                <th>SUBTOTAL</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    Zessi Dresses x 2
-                                </td>
-                                <td>
-                                    $32.50
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Kirby T-Shirt
-                                </td>
-                                <td>
-                                    $29.90
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <table class="checkout-totals">
-                        <tbody>
-                            <tr>
-                                <th>SUBTOTAL</th>
-                                <td>$62.40</td>
-                            </tr>
-                            <tr>
-                                <th>SHIPPING</th>
-                                <td>Free shipping</td>
-                            </tr>
-                            <tr>
-                                <th>VAT</th>
-                                <td>$19</td>
-                            </tr>
-                            <tr>
-                                <th>TOTAL</th>
-                                <td>$81.40</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <a href="{{route('user.account.orders')}}" class="btn btn-warning mb-3 mt-3">View Orders</a>
             </div>
         </div>
     </section>
